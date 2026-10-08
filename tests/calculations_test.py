@@ -63,7 +63,7 @@ def test_get_nth_fibonacci_one():
     # Assert
     assert result == 1
 
-
+#
 def test_get_nth_fibonacci_negative():
     """Test that a negative index is rejected."""
     with pytest.raises(ValueError, match="n cannot be negative"):
